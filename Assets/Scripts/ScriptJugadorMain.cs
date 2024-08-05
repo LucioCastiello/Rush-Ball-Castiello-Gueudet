@@ -26,4 +26,9 @@ public class ScriptJugadorMain : MonoBehaviour
 
         rigidbody.velocity = new Vector2(inputVelocidad * Velocidad, rigidbody.velocity.y);
     }
+
+    void ProcesarSalto()
+    {
+
+    }
 }
