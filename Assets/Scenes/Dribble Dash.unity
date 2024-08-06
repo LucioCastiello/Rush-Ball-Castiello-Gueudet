@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 1357240026}
   - component: {fileID: 1357240025}
   - component: {fileID: 1357240024}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pasto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -427,7 +427,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!4 &2046093754
 Transform:
   m_ObjectHideFlags: 0
@@ -456,3 +456,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Velocidad: 6
   Salto: 7.5
+  CapaPasto:
+    serializedVersion: 2
+    m_Bits: 256
