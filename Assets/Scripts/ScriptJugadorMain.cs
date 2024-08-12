@@ -8,15 +8,17 @@ public class ScriptJugadorMain : MonoBehaviour
     public float Salto;
     private BoxCollider2D boxcollider;
     public LayerMask CapaPasto;
+    private Animator animator;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         boxcollider = GetComponent<BoxCollider2D>();
+        animator = GetComponent<Animator>(); // La clase se llama Animator, no "animator"
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         ProcesarMovimiento();
         ProcesarSalto();
@@ -26,6 +28,15 @@ public class ScriptJugadorMain : MonoBehaviour
     {
         float inputVelocidad = Input.GetAxis("Horizontal");
         Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
+
+        if (inputVelocidad != 0f)
+        {
+            animator.SetBool("IsRunning", true);
+        }
+        else
+        {
+            animator.SetBool("IsRunning", false);
+        }
 
         rigidbody.velocity = new Vector2(inputVelocidad * Velocidad, rigidbody.velocity.y);
     }
