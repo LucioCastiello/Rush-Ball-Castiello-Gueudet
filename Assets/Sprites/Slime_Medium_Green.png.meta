@@ -1,0 +1,654 @@
+fileFormatVersion: 2
+guid: 47401e65539d1ce43831cf2390663b58
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Slime_Medium_Green_0
+    21300002: Slime_Medium_Green_1
+    21300004: Slime_Medium_Green_2
+    21300006: Slime_Medium_Green_3
+    21300008: Slime_Medium_Green_4
+    21300010: Slime_Medium_Green_5
+    21300012: Slime_Medium_Green_6
+    21300014: Slime_Medium_Green_7
+    21300016: Slime_Medium_Green_8
+    21300018: Slime_Medium_Green_9
+    21300020: Slime_Medium_Green_10
+    21300022: Slime_Medium_Green_11
+    21300024: Slime_Medium_Green_12
+    21300026: Slime_Medium_Green_13
+    21300028: Slime_Medium_Green_14
+    21300030: Slime_Medium_Green_15
+    21300032: Slime_Medium_Green_16
+    21300034: Slime_Medium_Green_17
+    21300036: Slime_Medium_Green_18
+    21300038: Slime_Medium_Green_19
+    21300040: Slime_Medium_Green_20
+    21300042: Slime_Medium_Green_21
+    21300044: Slime_Medium_Green_22
+    21300046: Slime_Medium_Green_23
+    21300048: Slime_Medium_Green_24
+    21300050: Slime_Medium_Green_25
+    21300052: Slime_Medium_Green_26
+    21300054: Slime_Medium_Green_27
+    21300056: Slime_Medium_Green_28
+    21300058: Slime_Medium_Green_29
+    21300060: Slime_Medium_Green_30
+    21300062: Slime_Medium_Green_31
+    21300064: Slime_Medium_Green_32
+    21300066: Slime_Medium_Green_33
+    21300068: Slime_Medium_Green_34
+    21300070: Slime_Medium_Green_35
+    21300072: Slime_Medium_Green_36
+    21300074: Slime_Medium_Green_37
+    21300076: Slime_Medium_Green_38
+    21300078: Slime_Medium_Green_39
+    21300080: Slime_Medium_Green_40
+    21300082: Slime_Medium_Green_41
+    21300084: Slime_Medium_Green_42
+    21300086: Slime_Medium_Green_43
+    21300088: Slime_Medium_Green_44
+    21300090: Slime_Medium_Green_45
+    21300092: Slime_Medium_Green_46
+    21300094: Slime_Medium_Green_47
+    21300096: Slime_Medium_Green_48
+    21300098: Slime_Medium_Green_49
+    21300100: Slime_Medium_Green_50
+    21300102: Slime_Medium_Green_51
+    21300104: Slime_Medium_Green_52
+    21300106: Slime_Medium_Green_53
+    21300108: Slime_Medium_Green_54
+    21300110: Slime_Medium_Green_55
+    21300112: Slime_Medium_Green_56
+    21300114: Slime_Medium_Green_57
+    21300116: Slime_Medium_Green_58
+    21300118: Slime_Medium_Green_59
+    21300120: Slime_Medium_Green_60
+    21300122: Slime_Medium_Green_61
+    21300124: Slime_Medium_Green_62
+    21300126: Slime_Medium_Green_63
+    21300128: Slime_Medium_Green_64
+    21300130: Slime_Medium_Green_65
+    21300132: Slime_Medium_Green_66
+    21300134: Slime_Medium_Green_67
+    21300136: Slime_Medium_Green_68
+    21300138: Slime_Medium_Green_69
+    21300140: Slime_Medium_Green_70
+    21300142: Slime_Medium_Green_71
+    21300144: Slime_Medium_Green_72
+    21300146: Slime_Medium_Green_73
+    21300148: Slime_Medium_Green_74
+    21300150: Slime_Medium_Green_75
+    21300152: Slime_Medium_Green_76
+    21300154: Slime_Medium_Green_77
+    21300156: Slime_Medium_Green_78
+    21300158: Slime_Medium_Green_79
+    21300160: Slime_Medium_Green_80
+    21300162: Slime_Medium_Green_81
+    21300164: Slime_Medium_Green_82
+    21300166: Slime_Medium_Green_83
+    21300168: Slime_Medium_Green_84
+    21300170: Slime_Medium_Green_85
+    21300172: Slime_Medium_Green_86
+    21300174: Slime_Medium_Green_87
+    21300176: Slime_Medium_Green_88
+    21300178: Slime_Medium_Green_89
+    21300180: Slime_Medium_Green_90
+    21300182: Slime_Medium_Green_91
+    21300184: Slime_Medium_Green_92
+    21300186: Slime_Medium_Green_93
+    21300188: Slime_Medium_Green_94
+    21300190: Slime_Medium_Green_95
+    21300192: Slime_Medium_Green_96
+    21300194: Slime_Medium_Green_97
+    21300196: Slime_Medium_Green_98
+    21300198: Slime_Medium_Green_99
+    21300200: Slime_Medium_Green_100
+    21300202: Slime_Medium_Green_101
+    21300204: Slime_Medium_Green_102
+    21300206: Slime_Medium_Green_103
+    21300208: Slime_Medium_Green_104
+    21300210: Slime_Medium_Green_105
+    21300212: Slime_Medium_Green_106
+    21300214: Slime_Medium_Green_107
+    21300216: Slime_Medium_Green_108
+    21300218: Slime_Medium_Green_109
+    21300220: Slime_Medium_Green_110
+    21300222: Slime_Medium_Green_111
+    21300224: Slime_Medium_Green_112
+    21300226: Slime_Medium_Green_113
+    21300228: Slime_Medium_Green_114
+    21300230: Slime_Medium_Green_115
+    21300232: Slime_Medium_Green_116
+    21300234: Slime_Medium_Green_117
+    21300236: Slime_Medium_Green_118
+    21300238: Slime_Medium_Green_119
+    21300240: Slime_Medium_Green_120
+    21300242: Slime_Medium_Green_121
+    21300244: Slime_Medium_Green_122
+    21300246: Slime_Medium_Green_123
+    21300248: Slime_Medium_Green_124
+    21300250: Slime_Medium_Green_125
+    21300252: Slime_Medium_Green_126
+    21300254: Slime_Medium_Green_127
+    21300256: Slime_Medium_Green_128
+    21300258: Slime_Medium_Green_129
+    21300260: Slime_Medium_Green_130
+    21300262: Slime_Medium_Green_131
+    21300264: Slime_Medium_Green_132
+    21300266: Slime_Medium_Green_133
+    21300268: Slime_Medium_Green_134
+    21300270: Slime_Medium_Green_135
+    21300272: Slime_Medium_Green_136
+    21300274: Slime_Medium_Green_137
+    21300276: Slime_Medium_Green_138
+    21300278: Slime_Medium_Green_139
+    21300280: Slime_Medium_Green_140
+    21300282: Slime_Medium_Green_141
+    21300284: Slime_Medium_Green_142
+    21300286: Slime_Medium_Green_143
+    21300288: Slime_Medium_Green_144
+    21300290: Slime_Medium_Green_145
+    21300292: Slime_Medium_Green_146
+    21300294: Slime_Medium_Green_147
+    21300296: Slime_Medium_Green_148
+    21300298: Slime_Medium_Green_149
+    21300300: Slime_Medium_Green_150
+    21300302: Slime_Medium_Green_151
+    21300304: Slime_Medium_Green_152
+    21300306: Slime_Medium_Green_153
+    21300308: Slime_Medium_Green_154
+    21300310: Slime_Medium_Green_155
+    21300312: Slime_Medium_Green_156
+    21300314: Slime_Medium_Green_157
+    21300316: Slime_Medium_Green_158
+    21300318: Slime_Medium_Green_159
+    21300320: Slime_Medium_Green_160
+    21300322: Slime_Medium_Green_161
+    21300324: Slime_Medium_Green_162
+    21300326: Slime_Medium_Green_163
+    21300328: Slime_Medium_Green_164
+    21300330: Slime_Medium_Green_165
+    21300332: Slime_Medium_Green_166
+    21300334: Slime_Medium_Green_167
+    21300336: Slime_Medium_Green_168
+    21300338: Slime_Medium_Green_169
+    21300340: Slime_Medium_Green_170
+    21300342: Slime_Medium_Green_171
+    21300344: Slime_Medium_Green_172
+    21300346: Slime_Medium_Green_173
+    21300348: Slime_Medium_Green_174
+    21300350: Slime_Medium_Green_175
+    21300352: Slime_Medium_Green_176
+    21300354: Slime_Medium_Green_177
+    21300356: Slime_Medium_Green_178
+    21300358: Slime_Medium_Green_179
+    21300360: Slime_Medium_Green_180
+    21300362: Slime_Medium_Green_181
+    21300364: Slime_Medium_Green_182
+    21300366: Slime_Medium_Green_183
+    21300368: Slime_Medium_Green_184
+    21300370: Slime_Medium_Green_185
+    21300372: Slime_Medium_Green_186
+    21300374: Slime_Medium_Green_187
+    21300376: Slime_Medium_Green_188
+    21300378: Slime_Medium_Green_189
+    21300380: Slime_Medium_Green_190
+    21300382: Slime_Medium_Green_191
+    21300384: Slime_Medium_Green_192
+    21300386: Slime_Medium_Green_193
+    21300388: Slime_Medium_Green_194
+    21300390: Slime_Medium_Green_195
+    21300392: Slime_Medium_Green_196
+    21300394: Slime_Medium_Green_197
+    21300396: Slime_Medium_Green_198
+    21300398: Slime_Medium_Green_199
+    21300400: Slime_Medium_Green_200
+    21300402: Slime_Medium_Green_201
+    21300404: Slime_Medium_Green_202
+    21300406: Slime_Medium_Green_203
+    21300408: Slime_Medium_Green_204
+    21300410: Slime_Medium_Green_205
+    21300412: Slime_Medium_Green_206
+    21300414: Slime_Medium_Green_207
+    21300416: Slime_Medium_Green_208
+    21300418: Slime_Medium_Green_209
+    21300420: Slime_Medium_Green_210
+    21300422: Slime_Medium_Green_211
+    21300424: Slime_Medium_Green_212
+    21300426: Slime_Medium_Green_213
+    21300428: Slime_Medium_Green_214
+    21300430: Slime_Medium_Green_215
+    21300432: Slime_Medium_Green_216
+    21300434: Slime_Medium_Green_217
+    21300436: Slime_Medium_Green_218
+    21300438: Slime_Medium_Green_219
+    21300440: Slime_Medium_Green_220
+    21300442: Slime_Medium_Green_221
+    21300444: Slime_Medium_Green_222
+    21300446: Slime_Medium_Green_223
+    21300448: Slime_Medium_Green_224
+    21300450: Slime_Medium_Green_225
+    21300452: Slime_Medium_Green_226
+    21300454: Slime_Medium_Green_227
+    21300456: Slime_Medium_Green_228
+    21300458: Slime_Medium_Green_229
+    21300460: Slime_Medium_Green_230
+    21300462: Slime_Medium_Green_231
+    21300464: Slime_Medium_Green_232
+    21300466: Slime_Medium_Green_233
+    21300468: Slime_Medium_Green_234
+    21300470: Slime_Medium_Green_235
+    21300472: Slime_Medium_Green_236
+    21300474: Slime_Medium_Green_237
+    21300476: Slime_Medium_Green_238
+    21300478: Slime_Medium_Green_239
+    21300480: Slime_Medium_Green_240
+    21300482: Slime_Medium_Green_241
+    21300484: Slime_Medium_Green_242
+    21300486: Slime_Medium_Green_243
+    21300488: Slime_Medium_Green_244
+    21300490: Slime_Medium_Green_245
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Medium_Green_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33949d70ae08a0143ba7aa02d040a6cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Green_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16e1557b6062d044937f25e6259edb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Green_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7935abffe85725144966d49799e0f768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Green_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe8f17fb316401478c1229c099ad7cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Green_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a200ea7c407ba4468bb4e8e009c8d1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Green_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7fb35db92fd264ebb25aff2838f374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Green_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dd23fa221874649bbd14380e414a0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Green_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b538d1794fc4f164b82ba623cb6044ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Green_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef644ffd524fe2445baa7b355bb1d2ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Green_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1030bde2596c7f468e5d7ebcaca13ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Green_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe40848c922d6ba4798fc01e151a8145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Green_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e233e5338b898409af8dd46947a928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Green_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a30a5d9d74ecc8468736443687c5649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Green_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f015f71438db05d4fa057aa84dae4225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Green_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c9613649b5d234b96c6252ca56e1b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Green_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b5bd7e86c368a449e9a2c85f24f876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2eb7efe96520df94298a46ee09918658
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
