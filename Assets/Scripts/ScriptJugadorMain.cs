@@ -16,6 +16,7 @@ public class ScriptJugadorMain : MonoBehaviour
     private BoxCollider2D boxcollider;
     public LayerMask CapaPasto;
     private Animator animator;
+    public SoundManager audioManager;
 
     // Start is called before the first frame update
     private void Start()
