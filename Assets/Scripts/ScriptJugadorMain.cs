@@ -16,10 +16,11 @@ public class ScriptJugadorMain : MonoBehaviour
     private BoxCollider2D boxcollider;
     public LayerMask CapaPasto;
     private Animator animator;
-    public SoundManager audioManager;
+    
+    public AudioClip SonidoSalto;
 
     // Start is called before the first frame update
-    private void Start()
+    private void Start( )
     {
         boxcollider = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>(); // La clase se llama Animator, no "animator"
@@ -71,6 +72,7 @@ public class ScriptJugadorMain : MonoBehaviour
         {
             Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
             rigidbody.AddForce(Vector2.up * Salto, ForceMode2D.Impulse);
+            SoundManager.Instance.ReproducirSonido(SonidoSalto);
         }
     }
 }
