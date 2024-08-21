@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class DefensorScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+     private void OnCollisionEnter2D(Collision2D other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (other.gameObject.CompareTag("Player"))
+        {
+            GAMEMANAGER.Instance.PerderVida();
+        }
     }
 }

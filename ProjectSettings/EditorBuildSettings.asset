@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 99440e56d47cb5f4f9147ce81ee291d2
+  - enabled: 1
+    path: Assets/Scenes/Dribble Dash.unity
+    guid: 229801d1713b22b4da9dd58c7937a7c7
+  - enabled: 1
+    path: Assets/Scenes/Escena de resultados}.unity
+    guid: 96c775737a7cb7c48becb024bdd3d9f9
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 414cfe121d41177478dd8ef871f4fc57
   m_configObjects: {}

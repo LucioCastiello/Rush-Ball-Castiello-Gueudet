@@ -23,7 +23,7 @@ public class ScriptJugadorMain : MonoBehaviour
     private void Start( )
     {
         boxcollider = GetComponent<BoxCollider2D>();
-        animator = GetComponent<Animator>(); // La clase se llama Animator, no "animator"
+        animator = GetComponent<Animator>(); 
     }
 
     // Update is called once per frame
@@ -59,7 +59,7 @@ public class ScriptJugadorMain : MonoBehaviour
             boxcollider.bounds.size,
             0f,
             Vector2.down,
-            0.1f, // Distancia del BoxCast, ajusta según sea necesario
+            0.1f, 
             CapaPasto
         );
 
