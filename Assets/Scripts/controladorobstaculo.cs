@@ -7,7 +7,7 @@ public class controladorobstaculo : MonoBehaviour
     
 {
 
-    public float velocidad = 2f;
+    public float velocidad = 4f;
 
     private Rigidbody2D rigid2d;
 
