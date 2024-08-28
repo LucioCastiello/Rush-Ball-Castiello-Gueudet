@@ -28,7 +28,7 @@ public class controladorobstaculo : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Destroyer")
+        if(other.gameObject.tag == "destructor")
         {
             Destroy(gameObject);
         }

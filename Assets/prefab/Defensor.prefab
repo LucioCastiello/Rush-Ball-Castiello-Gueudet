@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8343439719881315957}
   - component: {fileID: 8343439719881315956}
   - component: {fileID: 8343439719881315946}
+  - component: {fileID: 114628699102259234}
   m_Layer: 0
   m_Name: Defensor
   m_TagString: Obstacle
@@ -94,7 +95,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.017596364, y: -0.035191536}
@@ -172,3 +173,15 @@ CapsuleCollider2D:
   m_Offset: {x: -0.029046059, y: 0.029045232}
   m_Size: {x: 0.83816063, y: 0.7219772}
   m_Direction: 1
+--- !u!114 &114628699102259234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8343439719881315955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 797d0710c17cf2449a8aa9a99c100845, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

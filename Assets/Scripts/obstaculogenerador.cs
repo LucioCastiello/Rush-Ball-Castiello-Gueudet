@@ -22,4 +22,14 @@ public class obstaculogenerador : MonoBehaviour
     {
         Instantiate(obstaclePrefab, transform.position, Quaternion.identity);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        // Verifica si el objeto con el que colisiona tiene el tag "Player"
+        if (other.CompareTag("Player"))
+        {
+            // Destruye el objeto del jugador
+            Destroy(other.gameObject);
+        }
+    }
 }

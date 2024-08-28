@@ -6,6 +6,8 @@ TagManager:
   tags:
   - destructor
   - Obstacle
+  - Pasto
+  - Pisano
   layers:
   - Default
   - TransparentFX
