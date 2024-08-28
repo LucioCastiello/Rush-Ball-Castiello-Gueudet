@@ -8,7 +8,7 @@ public class DefensorScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            GAMEMANAGER.Instance.PerderVida();
+          
         }
     }
 }

@@ -4,13 +4,7 @@ using UnityEngine;
 
 public class ScriptJugadorMain : MonoBehaviour
 {
-    [Header("Agacharse")]
-    [SerializeField] private Transform controladorTecho;
-    [SerializeField] private float radioTecho;
-    [SerializeField] private float multiplicadorvelocidadagachado;
-    [SerializeField] private Collider2D colisionadorAgachado;
-    private bool estabaAgachado = false;
-    private bool agachar = false;
+    
     public float Velocidad;
     public float Salto;
     private BoxCollider2D boxcollider;
@@ -75,4 +69,10 @@ public class ScriptJugadorMain : MonoBehaviour
             SoundManager.Instance.ReproducirSonido(SonidoSalto);
         }
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        Destroy(gameObject);
+    }
+
 }

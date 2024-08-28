@@ -5,7 +5,7 @@ using TMPro;
 
 public class HUD : MonoBehaviour
 {
-    public GameObject[] vidas;
+    
     public TextMeshProUGUI puntos;
     // Start is called before the first frame update
     void Start()
@@ -18,13 +18,6 @@ public class HUD : MonoBehaviour
     {
 
     }
-    public void DesactivarVida(int indice)
-    {
-        vidas[indice].SetActive(false);
-    }
 
-    public void ActivarVida(int indice)
-    {
-        vidas[indice].SetActive(true);
-    }
+    
 }
