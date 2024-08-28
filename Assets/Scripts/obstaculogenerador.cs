@@ -5,7 +5,7 @@ using UnityEngine;
 public class obstaculogenerador : MonoBehaviour
 {
     public GameObject obstaclePrefab;
-    public float generatorTimer = 2.0f;
+    public float generatorTimer = 10.0f;
 
     // Start is called before the first frame update
     void Start()
