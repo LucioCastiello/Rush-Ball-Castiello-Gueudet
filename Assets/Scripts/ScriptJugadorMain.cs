@@ -6,10 +6,13 @@ public class ScriptJugadorMain : MonoBehaviour
 {
     
     public float Velocidad;
+    public float VelocidadAgachado;
     public float Salto;
     private BoxCollider2D boxcollider;
     public LayerMask CapaPasto;
     private Animator animator;
+    public bool Agachado = false;
+    int agacharID;
     
     public AudioClip SonidoSalto;
 
@@ -17,7 +20,8 @@ public class ScriptJugadorMain : MonoBehaviour
     private void Start( )
     {
         boxcollider = GetComponent<BoxCollider2D>();
-        animator = GetComponent<Animator>(); 
+        animator = GetComponent<Animator>();
+        agacharID = Animator.StringToHash("Agachado");
     }
 
     // Update is called once per frame
@@ -25,6 +29,7 @@ public class ScriptJugadorMain : MonoBehaviour
     {
         ProcesarMovimiento();
         ProcesarSalto();
+        Agacharse();
 
     }
     
@@ -33,6 +38,17 @@ public class ScriptJugadorMain : MonoBehaviour
     {
         float inputVelocidad = Input.GetAxis("Horizontal");
         Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
+        float velocidadx;
+
+            if(Agachado)
+        {
+            velocidadx = Input.GetAxis("Horizontal") * VelocidadAgachado;
+
+        }
+        else
+        {
+            velocidadx = Input.GetAxis("Horizontal") * Velocidad;
+        }
 
         if (inputVelocidad != 0f)
         {
@@ -70,5 +86,20 @@ public class ScriptJugadorMain : MonoBehaviour
         }
     }
 
-   
+   void Agacharse()
+    {
+       
+        {
+            if (Input.GetKey(KeyCode.DownArrow))
+            {
+                Agachado = true;
+            }
+            else
+            {
+                Agachado = false;
+            }
+            animator.SetBool(agacharID, Agachado);
+        }
+    }
 }
+
