@@ -6,7 +6,7 @@ public class MenuController : MonoBehaviour
 {
     // Asigna el botón desde el inspector
     public Button jugarButton;
-
+    [SerializeField] private AudioClip startSound;
     void Start()
     {
         // Asegúrate de que el botón esté asignado
@@ -20,5 +20,7 @@ public class MenuController : MonoBehaviour
     {
         // Cambia a la escena "DribbleDash"
         SceneManager.LoadScene("Dribble Dash");
+        SoundManager.Instance.ReproducirSonido(startSound);
+        SoundManager.Instance.GetIsMusicPlaying();
     }
 }

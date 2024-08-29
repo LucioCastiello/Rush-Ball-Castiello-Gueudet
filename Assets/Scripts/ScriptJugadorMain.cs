@@ -13,8 +13,8 @@ public class ScriptJugadorMain : MonoBehaviour
     private Animator animator;
     public bool Agachado = false;
     int agacharID;
-    
-    public AudioClip SonidoSalto;
+
+    [SerializeField] private AudioClip jumpSound, dieSound;
 
     // Start is called before the first frame update
     private void Start( )
@@ -82,7 +82,7 @@ public class ScriptJugadorMain : MonoBehaviour
         {
             Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
             rigidbody.AddForce(Vector2.up * Salto, ForceMode2D.Impulse);
-            SoundManager.Instance.ReproducirSonido(SonidoSalto);
+            SoundManager.Instance.ReproducirSonido(jumpSound);
         }
     }
 

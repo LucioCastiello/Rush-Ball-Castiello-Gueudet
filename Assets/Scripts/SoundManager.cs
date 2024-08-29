@@ -4,29 +4,39 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    private AudioSource audioSource;
+    [SerializeField] private AudioSource sfxAudioSource, musicAudioSource;
     public static SoundManager Instance { get; private set; }
+
+    private bool isMusicPlaying;
 
     // Start is called before the first frame update
 
     private void Awake()
     {
-        if(Instance == null)
+        if  (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
         {
             Instance = this;
-        } else
-        {
-            Debug.Log("Ojo Hay mas de un SoundManager en escena");
+            DontDestroyOnLoad(this);
         }
+      
     }
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+       
     }
 
     public void ReproducirSonido(AudioClip audio)
     {
-        audioSource.PlayOneShot(audio);
+        sfxAudioSource.PlayOneShot(audio);
+    }
+
+    public bool GetIsMusicPlaying()
+    {
+        return isMusicPlaying;
     }
 }
 
