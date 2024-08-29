@@ -39,7 +39,7 @@ public class GAMEMANAGER : MonoBehaviour
 
     private void Update()
     {
-        puntos += Time.deltaTime;
+        puntos += 0.5f * Time.deltaTime;
 
         // Asegurarse de que textmesh no sea nulo antes de usarlo
         if (textmesh != null)
