@@ -13,15 +13,23 @@ public class ScriptJugadorMain : MonoBehaviour
     private Animator animator;
     public bool Agachado = false;
     int agacharID;
+    public Vector2 colliderdepiesize;
+    public Vector2 colliderdepieoffset;
+    public Vector2 crouchSize = new Vector2(1f, 0.5f);
+    public Vector2 crouchOffset = new Vector2(0f, -0.25f);
+    BoxCollider2D coll;
 
     [SerializeField] private AudioClip jumpSound, dieSound;
 
     // Start is called before the first frame update
     private void Start( )
     {
-        boxcollider = GetComponent<BoxCollider2D>();
+        coll = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
         agacharID = Animator.StringToHash("Agachado");
+
+        colliderdepiesize = coll.size;
+        colliderdepieoffset = coll.offset;
     }
 
     // Update is called once per frame
@@ -32,7 +40,7 @@ public class ScriptJugadorMain : MonoBehaviour
         Agacharse();
 
     }
-    
+
 
     void ProcesarMovimiento()
     {
@@ -65,8 +73,8 @@ public class ScriptJugadorMain : MonoBehaviour
     bool EstaEnSuelo()
     {
         RaycastHit2D hit = Physics2D.BoxCast(
-            boxcollider.bounds.center,
-            boxcollider.bounds.size,
+            coll.bounds.center,
+            coll.bounds.size,
             0f,
             Vector2.down,
             0.1f, 
@@ -93,13 +101,28 @@ public class ScriptJugadorMain : MonoBehaviour
             if (Input.GetKey(KeyCode.DownArrow))
             {
                 Agachado = true;
+                Crouch();
             }
             else
             {
                 Agachado = false;
+                StandUp();
+
             }
             animator.SetBool(agacharID, Agachado);
         }
+    }
+
+    void Crouch()
+    {
+        coll.size = crouchSize;
+        coll.offset = crouchOffset;
+    }
+
+    void StandUp()
+    {
+        coll.size = colliderdepiesize;
+        coll.offset = colliderdepieoffset;
     }
 }
 
