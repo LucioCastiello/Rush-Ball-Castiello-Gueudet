@@ -7,6 +7,8 @@ public class HUD : MonoBehaviour
 {
     
     public TextMeshProUGUI puntos;
+    public GameObject[] vidas;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,5 +21,9 @@ public class HUD : MonoBehaviour
 
     }
 
+    public void DesactivarVida(int indice)
+    {
+        vidas[indice].SetActive(false);
+    }
     
 }

@@ -8,8 +8,8 @@ public class GAMEMANAGER : MonoBehaviour
     private float puntos;
     private TextMeshProUGUI textmesh; // Declarar la variable textmesh aquí
     public HUD hud;
-    
     public static GAMEMANAGER Instance { get; private set; }
+    private int vidas = 3;
 
     private void Awake()
     {
@@ -52,5 +52,10 @@ public class GAMEMANAGER : MonoBehaviour
         }
     }
 
+    public void PerderVida()
+    {
+        vidas -= 1;
+        hud.DesactivarVida(vidas); 
+    }
   
 }
