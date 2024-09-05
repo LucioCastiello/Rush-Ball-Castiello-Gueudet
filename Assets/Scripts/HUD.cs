@@ -9,21 +9,16 @@ public class HUD : MonoBehaviour
     public TextMeshProUGUI puntos;
     public GameObject[] vidas;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+   
     // Update is called once per frame
     void Update()
     {
-
+        puntos.text = Mathf.Ceil(GAMEMANAGER.Instance.puntos).ToString();
     }
 
     public void DesactivarVida(int indice)
     {
-        vidas[indice].SetActive(false);
+        vidas[indice].SetActive(false); 
     }
     
 }

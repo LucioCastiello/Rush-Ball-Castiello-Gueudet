@@ -11,7 +11,12 @@ public class controladorobstaculo : MonoBehaviour
 
     private Rigidbody2D rigid2d;
 
+    public VidasManager vidasMgr;
 
+    private void Awake()
+    {
+        vidasMgr = FindObjectOfType<VidasManager>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -36,10 +41,10 @@ public class controladorobstaculo : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D other)
-    {
+    {        
         if (other.gameObject.CompareTag("Player"))
         { 
-            GAMEMANAGER.Instance.PerderVida();
+            vidasMgr.PerderVida();
         }
     }
 }

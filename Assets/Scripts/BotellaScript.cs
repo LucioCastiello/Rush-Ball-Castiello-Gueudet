@@ -8,7 +8,12 @@ public class BotellaScript : MonoBehaviour
 
     private Rigidbody2D rigid2d;
 
+    public VidasManager vidasMgr;
 
+    private void Awake()
+    {
+        vidasMgr = FindObjectOfType<VidasManager>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -30,5 +35,13 @@ public class BotellaScript : MonoBehaviour
             Destroy(gameObject);
         }
 
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            vidasMgr.PerderVida();
+        }
     }
 }
