@@ -1,21 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class ScoreScript : MonoBehaviour
+public class ScoreScriptUI : MonoBehaviour
 {
-    public float puntos;
+    public Text TxtPuntaje;
+    public float Puntaje;
 
     // Start is called before the first frame update
     void Start()
     {
-        puntos = 0;
+       Puntaje = PlayerPrefs.GetFloat("puntos");
+       TxtPuntaje.text = Puntaje.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-        puntos += 0.5f * Time.deltaTime;
-        GAMEMANAGER.Instance.puntos = puntos;
+        
     }
 }

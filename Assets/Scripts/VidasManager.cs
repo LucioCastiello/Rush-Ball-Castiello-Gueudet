@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class VidasManager : MonoBehaviour
 {
@@ -22,6 +23,10 @@ public class VidasManager : MonoBehaviour
     public void PerderVida()
     {
         vidas -= 1;
+        if(vidas == 0)
+        {
+            SceneManager.LoadScene(2);
+        }
         hud.DesactivarVida(vidas);
         GAMEMANAGER.Instance.vidas = vidas;
         
