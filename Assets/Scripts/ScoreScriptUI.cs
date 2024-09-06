@@ -8,16 +8,19 @@ public class ScoreScriptUI : MonoBehaviour
     public Text TxtPuntaje;
     public float Puntaje;
 
+
     // Start is called before the first frame update
     void Start()
     {
-       Puntaje = PlayerPrefs.GetFloat("puntos");
-       TxtPuntaje.text = Puntaje.ToString();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Puntaje = PlayerPrefs.GetFloat("puntos");
+        TxtPuntaje.text = Puntaje.ToString();
+
+        Debug.Log(TxtPuntaje.text);
     }
 }
