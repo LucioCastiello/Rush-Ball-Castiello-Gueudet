@@ -18,7 +18,7 @@ public class ScoreScriptUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Puntaje = PlayerPrefs.GetFloat("puntos");
+        Puntaje = GAMEMANAGER.Instance.puntos;
         TxtPuntaje.text = Puntaje.ToString();
 
         Debug.Log(TxtPuntaje.text);
