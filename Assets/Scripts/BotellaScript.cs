@@ -10,6 +10,9 @@ public class BotellaScript : MonoBehaviour
 
     public VidasManager vidasMgr;
 
+    private Animator animator;
+    private bool isCollided = false;
+
     private void Awake()
     {
         vidasMgr = FindObjectOfType<VidasManager>();
@@ -20,6 +23,7 @@ public class BotellaScript : MonoBehaviour
     {
         rigid2d = GetComponent<Rigidbody2D>();
         rigid2d.velocity = Vector2.left * velocidad;
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -28,20 +32,20 @@ public class BotellaScript : MonoBehaviour
 
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "destructor")
-        {
-            Destroy(gameObject);
-        }
-
-    }
+   
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             vidasMgr.PerderVida();
+            isCollided = true;
+            animator.SetTrigger("Collide");
+
         }
+    }
+    public void DestroyBottle()
+    {
+        Destroy(gameObject);
     }
 }

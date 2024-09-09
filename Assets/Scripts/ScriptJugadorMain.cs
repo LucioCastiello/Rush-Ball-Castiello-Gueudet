@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScriptJugadorMain : MonoBehaviour
 {
@@ -12,7 +13,6 @@ public class ScriptJugadorMain : MonoBehaviour
     public LayerMask CapaPasto;
     private Animator animator;
     public bool Agachado = false;
-    private bool Colission;
     int agacharID;
     public Vector2 colliderdepiesize;
     public Vector2 colliderdepieoffset;
@@ -29,7 +29,6 @@ public class ScriptJugadorMain : MonoBehaviour
         animator = GetComponent<Animator>();
         agacharID = Animator.StringToHash("Agachado");
 
-        Colission = false;
         colliderdepiesize = coll.size;
         colliderdepieoffset = coll.offset;
     }
@@ -127,12 +126,27 @@ public class ScriptJugadorMain : MonoBehaviour
         coll.offset = colliderdepieoffset;
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    
+
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Botella"))
+        if (other.gameObject.tag == "destructor")
         {
-            animator.SetBool("Colissiona", true);
+            Destroy(gameObject);
+            SceneManager.LoadScene(2);
+
         }
+
+        if (other.CompareTag("Defender") || other.CompareTag("Botella"))
+        {
+            
+            animator.SetTrigger("Colissiona");
+            Debug.Log("Colisión detectada con: " + other.gameObject.name);  
+
+        }
+
     }
+
+   
 }
 

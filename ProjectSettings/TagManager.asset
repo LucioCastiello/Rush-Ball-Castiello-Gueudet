@@ -9,6 +9,7 @@ TagManager:
   - Pasto
   - Pisano
   - Botella
+  - Defender
   layers:
   - Default
   - TransparentFX
