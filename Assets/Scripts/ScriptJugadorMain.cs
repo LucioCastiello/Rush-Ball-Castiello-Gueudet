@@ -12,6 +12,7 @@ public class ScriptJugadorMain : MonoBehaviour
     public LayerMask CapaPasto;
     private Animator animator;
     public bool Agachado = false;
+    private bool Colission;
     int agacharID;
     public Vector2 colliderdepiesize;
     public Vector2 colliderdepieoffset;
@@ -28,6 +29,7 @@ public class ScriptJugadorMain : MonoBehaviour
         animator = GetComponent<Animator>();
         agacharID = Animator.StringToHash("Agachado");
 
+        Colission = false;
         colliderdepiesize = coll.size;
         colliderdepieoffset = coll.offset;
     }
@@ -124,5 +126,7 @@ public class ScriptJugadorMain : MonoBehaviour
         coll.size = colliderdepiesize;
         coll.offset = colliderdepieoffset;
     }
+
+   
 }
 

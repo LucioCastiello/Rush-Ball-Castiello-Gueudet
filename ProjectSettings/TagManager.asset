@@ -8,6 +8,7 @@ TagManager:
   - Obstacle
   - Pasto
   - Pisano
+  - Botella
   layers:
   - Default
   - TransparentFX
