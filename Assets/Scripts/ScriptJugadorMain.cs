@@ -127,6 +127,12 @@ public class ScriptJugadorMain : MonoBehaviour
         coll.offset = colliderdepieoffset;
     }
 
-   
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Botella"))
+        {
+            animator.SetBool("Colissiona", true);
+        }
+    }
 }
 
