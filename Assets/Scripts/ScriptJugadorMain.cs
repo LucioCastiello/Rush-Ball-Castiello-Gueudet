@@ -41,6 +41,9 @@ public class ScriptJugadorMain : MonoBehaviour
         ProcesarSalto();
         Agacharse();
 
+        
+
+
     }
 
 
@@ -99,9 +102,13 @@ public class ScriptJugadorMain : MonoBehaviour
 
             Debug.Log("Personaje está saltando");
         }
-        if (EstaEnSuelo()) { animator.SetBool("IsJumping", false);
+        if (EstaEnSuelo())
+
+        { 
+
+        
             Debug.Log("Personaje está en el suelo");
-        }
+        } 
     }
 
     void Agacharse()
