@@ -1747,7 +1747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstaclePrefab: {fileID: 1140476201}
-  generatorTimer: 4
+  generatorTimer: 3.5
 --- !u!4 &2122258455
 Transform:
   m_ObjectHideFlags: 0
