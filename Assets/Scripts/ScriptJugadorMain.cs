@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ScriptJugadorMain : MonoBehaviour
 {
-    
+
     public float Velocidad;
     public float VelocidadAgachado;
     public float Salto;
@@ -23,7 +23,7 @@ public class ScriptJugadorMain : MonoBehaviour
     [SerializeField] private AudioClip jumpSound, dieSound;
 
     // Start is called before the first frame update
-    private void Start( )
+    private void Start()
     {
         coll = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
@@ -31,6 +31,7 @@ public class ScriptJugadorMain : MonoBehaviour
 
         colliderdepiesize = coll.size;
         colliderdepieoffset = coll.offset;
+
     }
 
     // Update is called once per frame
@@ -49,7 +50,7 @@ public class ScriptJugadorMain : MonoBehaviour
         Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
         float velocidadx;
 
-            if(Agachado)
+        if (Agachado)
         {
             velocidadx = Input.GetAxis("Horizontal") * VelocidadAgachado;
 
@@ -78,7 +79,7 @@ public class ScriptJugadorMain : MonoBehaviour
             coll.bounds.size,
             0f,
             Vector2.down,
-            0.1f, 
+            0.1f,
             CapaPasto
         );
 
@@ -88,16 +89,24 @@ public class ScriptJugadorMain : MonoBehaviour
     void ProcesarSalto()
     {
         if (Input.GetKeyDown(KeyCode.Space) && EstaEnSuelo())
+
         {
             Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
             rigidbody.AddForce(Vector2.up * Salto, ForceMode2D.Impulse);
-            SoundManager.Instance.ReproducirSonido(jumpSound);
+            SoundManager.Instance.ReproducirSonido(jumpSound); 
+
+            animator.SetBool("IsJumping", true);
+
+            Debug.Log("Personaje está saltando");
+        }
+        if (EstaEnSuelo()) { animator.SetBool("IsJumping", false);
+            Debug.Log("Personaje está en el suelo");
         }
     }
 
-   void Agacharse()
+    void Agacharse()
     {
-       
+
         {
             if (Input.GetKey(KeyCode.DownArrow))
             {
@@ -126,7 +135,7 @@ public class ScriptJugadorMain : MonoBehaviour
         coll.offset = colliderdepieoffset;
     }
 
-    
+
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -139,14 +148,13 @@ public class ScriptJugadorMain : MonoBehaviour
 
         if (other.CompareTag("Defender") || other.CompareTag("Botella"))
         {
-            
+
             animator.SetTrigger("Colissiona");
-            Debug.Log("Colisión detectada con: " + other.gameObject.name);  
+            Debug.Log("Colisión detectada con: " + other.gameObject.name);
 
         }
 
     }
 
-   
-}
 
+}
