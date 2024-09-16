@@ -102,12 +102,12 @@ public class ScriptJugadorMain : MonoBehaviour
 
             Debug.Log("Personaje está saltando");
         }
-        if (EstaEnSuelo())
 
-        { 
+        if (EstaEnSuelo() && !Input.GetKey(KeyCode.Space))
+        {
+            animator.SetBool("IsJumping", false);
 
-        
-            Debug.Log("Personaje está en el suelo");
+            
         } 
     }
 
