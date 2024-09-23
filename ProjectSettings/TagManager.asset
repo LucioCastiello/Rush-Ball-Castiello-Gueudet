@@ -10,6 +10,7 @@ TagManager:
   - Pisano
   - Botella
   - Defender
+  - ZonaDesplacamiento
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - Pasto
   - CapaPasto
   - Fondo
-  - 
+  - Botella
   - 
   - 
   - 
@@ -47,6 +48,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: New Layer
-    uniqueID: 4098938087
+  - name: Fondo
+    uniqueID: 3814571181
     locked: 0
