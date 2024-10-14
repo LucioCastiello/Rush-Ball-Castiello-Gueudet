@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MenuScript : MonoBehaviour
 {
+    public GameObject panel;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +15,15 @@ public class MenuScript : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void ActivarPanel()
+    {
+        panel.SetActive(true);  // Activa el panel
+    }
+
+    public void DesactivarPanel()
+    {
+        panel.SetActive(false);  // Desactiva el panel
     }
 }
