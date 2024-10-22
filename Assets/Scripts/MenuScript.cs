@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MenuScript : MonoBehaviour
 {
-    public GameObject panel;
+    public GameObject panelCreditos;
+    public GameObject panelTrofeo;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,11 +20,23 @@ public class MenuScript : MonoBehaviour
 
     public void ActivarPanel()
     {
-        panel.SetActive(true);  // Activa el panel
+        panelCreditos.SetActive(true);  // Activa el panel
+      
+    }
+
+    public void ActivarPanelTrofeo()
+    {
+        panelTrofeo.SetActive(true);
     }
 
     public void DesactivarPanel()
     {
-        panel.SetActive(false);  // Desactiva el panel
+        panelCreditos.SetActive(false);  // Desactiva el panel
+       
+    }
+
+    public void DesactivarPanelTrofeo()
+    {
+        panelTrofeo.SetActive(false);
     }
 }

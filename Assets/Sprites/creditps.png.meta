@@ -1,10 +1,8 @@
 fileFormatVersion: 2
-guid: e42be627ad7aed046a1577f2288a0e7d
+guid: 6897ec91a55bac141aa67707c471a3e9
 TextureImporter:
   fileIDToRecycleName:
-    21300000: BOTON PLAY_0
-    21300002: BOTON PLAY_1
-    21300004: BOTON PLAY_2
+    21300000: creditps_0
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -35,7 +33,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: 1
+    aniso: -1
     mipBias: -100
     wrapU: 1
     wrapV: 1
@@ -44,7 +42,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -53,7 +51,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -76,81 +74,29 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BOTON PLAY_0
+      name: creditps_0
       rect:
         serializedVersion: 2
-        x: 75
-        y: 0
-        width: 116
-        height: 45
+        x: 221
+        y: 127
+        width: 24
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90ff8ea8535ff274b877f8ffac89286d
+      spriteID: 9bf1fabddc7ee4e48be18509245816c5
       vertices: []
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: BOTON PLAY_1
-      rect:
-        serializedVersion: 2
-        x: 332
-        y: 1
-        width: 106
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9e15a0b78c8b4a49b5bfc83ecfe6994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOTON PLAY_2
-      rect:
-        serializedVersion: 2
-        x: 590
-        y: 0
-        width: 105
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 730d6bb98c10d714eb6220d77505b539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    outline:
-    - - {x: 38, y: -37}
-      - {x: 38, y: 30}
-      - {x: 52, y: 30}
-      - {x: 52, y: -37}
-    - - {x: 24, y: -21}
-      - {x: 24, y: 17}
-      - {x: 141, y: 17}
-      - {x: 141, y: -21}
-    - - {x: -107, y: -8}
-      - {x: -107, y: 17}
-      - {x: 181, y: 17}
-      - {x: 181, y: -8}
+    outline: []
     physicsShape: []
     bones: []
-    spriteID: 386f00e3a782b2e45b9834cd445ed8e2
+    spriteID: 783c717d4de89db46a7e9a9e6ae3b74a
     vertices: []
     indices: 
     edges: []
