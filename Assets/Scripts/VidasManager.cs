@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class VidasManager : MonoBehaviour
 {
-    int vidas = 3;
+    int vidas = 1;
     public HUD hud;
 
     // Start is called before the first frame update
