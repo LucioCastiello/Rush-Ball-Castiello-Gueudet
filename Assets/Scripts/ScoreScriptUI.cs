@@ -19,7 +19,7 @@ public class ScoreScriptUI : MonoBehaviour
     void Update()
     {
         Puntaje = GAMEMANAGER.Instance.puntos;
-        TxtPuntaje.text = Puntaje.ToString();
+        TxtPuntaje.text = Puntaje.ToString("F1");
 
         Debug.Log(TxtPuntaje.text);
     }

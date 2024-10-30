@@ -38,5 +38,7 @@ public class SoundManager : MonoBehaviour
     {
         return isMusicPlaying;
     }
+
+   
 }
 
