@@ -16,9 +16,6 @@ public class HUD : MonoBehaviour
         puntos.text = Mathf.Ceil(GAMEMANAGER.Instance.puntos).ToString();
     }
 
-    public void DesactivarVida(int indice)
-    {
-        vidas[indice].SetActive(false); 
-    }
+    
     
 }

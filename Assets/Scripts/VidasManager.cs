@@ -27,7 +27,7 @@ public class VidasManager : MonoBehaviour
         {
             SceneManager.LoadScene(2);
         }
-        hud.DesactivarVida(vidas);
+        
         GAMEMANAGER.Instance.vidas = vidas;
         
     }
