@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 3b37389b6f7799b4c822d8f702c37d27
+guid: 14d8f0b2ca2cb69459b01fea00022e5c
 TextureImporter:
   fileIDToRecycleName:
-    21300000: salto-Recovered-Sheet_0
-    21300002: salto-Recovered-Sheet_1
-    21300004: salto-Recovered-Sheet_2
+    21300000: ULTIMO PISANO_0
+    21300002: ULTIMO PISANO_1
+    21300004: ULTIMO PISANO_2
+    21300006: ULTIMO PISANO_3
+    21300008: ULTIMO PISANO_4
+    21300010: ULTIMO PISANO_6
+    21300012: ULTIMO PISANO_8
+    21300014: ULTIMO PISANO_9
+    21300016: ULTIMO PISANO_5
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -76,61 +82,121 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: salto-Recovered-Sheet_0
+      name: ULTIMO PISANO_0
       rect:
         serializedVersion: 2
-        x: 180
+        x: 33
         y: 0
-        width: 100
+        width: 130
         height: 144
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2a348e4de14395448ef1578d61e838a
+      spriteID: 9dbdbfa0b548e324ab935e4c23eef86a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: salto-Recovered-Sheet_1
+      name: ULTIMO PISANO_1
       rect:
         serializedVersion: 2
-        x: 45
+        x: 287
         y: 0
-        width: 100
+        width: 130
         height: 144
-      alignment: 9
-      pivot: {x: 0.4966258, y: 0.4297043}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 866b4392f32413743a6ca640a879a21c
+      spriteID: 90f8bf5255de0184cbabaf91e42b62c6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: salto-Recovered-Sheet_2
+      name: ULTIMO PISANO_2
       rect:
         serializedVersion: 2
-        x: 300
+        x: 543
         y: 0
-        width: 100
+        width: 130
         height: 144
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4dcbec4be79ac0458bd9f5769410f17
+      spriteID: d9c91bb8096a91a42a518bfb8eb1b9ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTIMO PISANO_3
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 130
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f7336ddf9249f43ab2e2a7612ed441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTIMO PISANO_4
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 130
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586529f9dc29fc84eb2c77ae647adae6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTIMO PISANO_5
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 0
+        width: 130
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8ee1f0783850b47a5701102b1bea36
       vertices: []
       indices: 
       edges: []
@@ -138,12 +204,12 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 2c22b4aee436191479d6940884b31b08
+    spriteID: 7db6acb9dc3a56a4ebce9e5ecb1aec82
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+  spritePackingTag: 100
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
   userData: 
