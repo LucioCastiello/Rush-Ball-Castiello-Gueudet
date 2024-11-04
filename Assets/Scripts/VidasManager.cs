@@ -28,13 +28,32 @@ public class VidasManager : MonoBehaviour
 
     private IEnumerator HandleDeath()
     {
-        // Ejecutar la animación de muerte
-        playerAnimator.Play(deathAnimationName);
+        // Pausar el juego
+        Time.timeScale = 0f;
 
-        // Esperar 3 segundos
-        yield return new WaitForSeconds(3);
+        if (playerAnimator != null)
+        {
+            // Ejecutar la animación de muerte
+            playerAnimator.Play(deathAnimationName);
+
+            // Esperar 3 segundos en tiempo no escalado
+            float timer = 0f;
+            while (timer < 3f)
+            {
+                timer += Time.unscaledDeltaTime;
+                yield return null;
+            }
+        }
+        else
+        {
+            Debug.LogError("Player Animator no está asignado.");
+        }
+
+        // Restaurar la escala de tiempo
+        Time.timeScale = 1f;
 
         // Cargar la pantalla de Game Over
         SceneManager.LoadScene(2);
     }
+
 }
