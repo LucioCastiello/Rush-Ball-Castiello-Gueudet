@@ -7,28 +7,34 @@ public class VidasManager : MonoBehaviour
 {
     int vidas = 1;
     public HUD hud;
+    public Animator playerAnimator; // Referencia al Animator del jugador
+    public string deathAnimationName; // Nombre de la animación de muerte
 
-    // Start is called before the first frame update
     void Awake()
     {
         hud = FindObjectOfType<HUD>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void PerderVida()
     {
         vidas -= 1;
-        if(vidas == 0)
-        {
-            SceneManager.LoadScene(2);
-        }
-        
         GAMEMANAGER.Instance.vidas = vidas;
-        
+
+        if (vidas == 0)
+        {
+            StartCoroutine(HandleDeath());
+        }
+    }
+
+    private IEnumerator HandleDeath()
+    {
+        // Ejecutar la animación de muerte
+        playerAnimator.Play(deathAnimationName);
+
+        // Esperar 3 segundos
+        yield return new WaitForSeconds(3);
+
+        // Cargar la pantalla de Game Over
+        SceneManager.LoadScene(2);
     }
 }
