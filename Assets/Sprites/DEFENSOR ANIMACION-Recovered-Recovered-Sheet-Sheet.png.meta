@@ -186,7 +186,7 @@ TextureImporter:
       name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_5
       rect:
         serializedVersion: 2
-        x: 1414
+        x: 1416
         y: 0
         width: 200
         height: 144
@@ -271,7 +271,7 @@ TextureImporter:
         width: 200
         height: 144
       alignment: 9
-      pivot: {x: 0.78650147, y: 0.41014838}
+      pivot: {x: 0.78650147, y: 0.52766}
       border: {x: 70, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -290,7 +290,7 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+  spritePackingTag: 100
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
   userData: 
