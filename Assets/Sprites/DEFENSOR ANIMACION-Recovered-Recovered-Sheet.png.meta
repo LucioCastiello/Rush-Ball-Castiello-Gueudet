@@ -1,17 +1,21 @@
 fileFormatVersion: 2
-guid: f1a9ac251489c46058a7fa4cd397dd81
+guid: 8c30ddee23238a34f9f424efa0aa6514
 TextureImporter:
   fileIDToRecycleName:
-    21300000: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_0
-    21300002: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_1
-    21300004: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_2
-    21300006: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_3
-    21300008: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_4
-    21300010: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_5
-    21300012: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_6
-    21300014: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_7
-    21300016: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_8
-    21300018: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_9
+    21300000: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_0
+    21300002: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_1
+    21300004: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_2
+    21300006: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_3
+    21300008: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_4
+    21300010: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_5
+    21300012: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_6
+    21300014: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_7
+    21300016: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_8
+    21300018: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_9
+    21300020: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_10
+    21300022: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_11
+    21300024: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_12
+    21300026: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_13
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -57,7 +61,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -83,201 +87,181 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_0
+      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_0
       rect:
         serializedVersion: 2
-        x: 135
-        y: 0
-        width: 200
-        height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58a8cb5675e2a4288851b5b33397392b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 0
-        width: 200
-        height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e02360f82714546ee9e5820f4fb3db6d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 644
-        y: 0
-        width: 200
-        height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2dd3fc21c02914b2595f9f7c82096749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 905
-        y: 0
-        width: 200
-        height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb06837789fdf4b3996b04eace6aa87e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 1166
-        y: 0
-        width: 200
-        height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: efd11e67b87a34ab389c399e9ba36ed9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 1416
-        y: 0
-        width: 200
-        height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e166d2222c0134ae58a35e0aa90d8d8f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 1400
-        y: 0
-        width: 200
-        height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0146ad90c3c384e6a9d04ee0d39fbfa2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 1667
-        y: 0
-        width: 200
-        height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b87cb0ce2a5c74b7aad7c6dff8b048a4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 1922
-        y: 0
-        width: 200
-        height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7580622dc9a34a769de1b98d02ed6a4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 2104
-        y: 0
-        width: 200
+        x: 0
+        y: 288
+        width: 256
         height: 144
       alignment: 9
-      pivot: {x: 0.78650147, y: 0.52766}
-      border: {x: 70, y: 0, z: 0, w: 0}
+      pivot: {x: 0.3715798, y: 0.50753087}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 089ef1ffe04414a28ace89155cabf65a
+      spriteID: 6c08b731f85292e43ae6f89555e282c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 256
+        height: 144
+      alignment: 9
+      pivot: {x: 0.37112296, y: 0.49970946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1d8048bd540a2429f9ccc6ca8c0ae6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 288
+        width: 256
+        height: 144
+      alignment: 9
+      pivot: {x: 0.37134528, y: 0.50690144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf1c0966984c5f43b59715a8b085296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 256
+        height: 144
+      alignment: 9
+      pivot: {x: 0.37103283, y: 0.5000715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5d5dff7fbad5341b8381dd832dd8b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 256
+        height: 144
+      alignment: 9
+      pivot: {x: 0.37114656, y: 0.50597596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbfb24fb49858f478dee9e02631cee0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 144
+        width: 256
+        height: 144
+      alignment: 9
+      pivot: {x: 0.37165618, y: 0.49961293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dbbe3c3b546b84faf17a2401f1ba44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      alignment: 9
+      pivot: {x: 0.38687176, y: 0.5068219}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37980b4f1e0485a478b72c58fd3a2f19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 144
+      alignment: 9
+      pivot: {x: 0.3417771, y: 0.48479545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7fcdd0f0f66664ea4d818b0ed1ddbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEFENSOR ANIMACION-Recovered-Recovered-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 3
+        width: 256
+        height: 144
+      alignment: 9
+      pivot: {x: 0.22917247, y: 0.50418454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5520e446c595fbf4e8cd77642cd8ff6f
       vertices: []
       indices: 
       edges: []
@@ -285,7 +269,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 4be90eed89ebd4eb68c012034f36bfe4
+    spriteID: dd139a9747d8cbe4586a143b588fc426
     vertices: []
     indices: 
     edges: []
