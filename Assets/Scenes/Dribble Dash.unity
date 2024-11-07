@@ -882,7 +882,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 342bf6a4a2326f94785e499facec94cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hud: {fileID: 0}
   playerAnimator: {fileID: 2046093756}
   deathAnimationName: pisanomuerte
 --- !u!1 &409665392
@@ -2055,12 +2054,22 @@ PrefabInstance:
     - target: {fileID: 8558043157808765421, guid: b1e1d63324f954944851e2f0e6cf4be9,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.25686097
+      value: -0.24795091
       objectReference: {fileID: 0}
     - target: {fileID: 8558043157808765421, guid: b1e1d63324f954944851e2f0e6cf4be9,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.73071146
+      value: 0.58815074
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558043157808765421, guid: b1e1d63324f954944851e2f0e6cf4be9,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.58166534
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558043157808765421, guid: b1e1d63324f954944851e2f0e6cf4be9,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.41766417
       objectReference: {fileID: 0}
     - target: {fileID: 8558043157808765422, guid: b1e1d63324f954944851e2f0e6cf4be9,
         type: 3}
@@ -3108,12 +3117,12 @@ PrefabInstance:
     - target: {fileID: 8558043157808765419, guid: b1e1d63324f954944851e2f0e6cf4be9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.78
+      value: 6.847
       objectReference: {fileID: 0}
     - target: {fileID: 8558043157808765419, guid: b1e1d63324f954944851e2f0e6cf4be9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.25
+      value: -0.35
       objectReference: {fileID: 0}
     - target: {fileID: 8558043157808765419, guid: b1e1d63324f954944851e2f0e6cf4be9,
         type: 3}
@@ -3178,32 +3187,32 @@ PrefabInstance:
     - target: {fileID: 8558043157808765421, guid: b1e1d63324f954944851e2f0e6cf4be9,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.2865546
+      value: 0.015210807
       objectReference: {fileID: 0}
     - target: {fileID: 8558043157808765421, guid: b1e1d63324f954944851e2f0e6cf4be9,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 8
+      value: 15.875
       objectReference: {fileID: 0}
     - target: {fileID: 8558043157808765421, guid: b1e1d63324f954944851e2f0e6cf4be9,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8558043157808765421, guid: b1e1d63324f954944851e2f0e6cf4be9,
         type: 3}
       propertyPath: m_Size.y
-      value: 1.1349368
+      value: 0.90342903
       objectReference: {fileID: 0}
     - target: {fileID: 8558043157808765421, guid: b1e1d63324f954944851e2f0e6cf4be9,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.20898807
+      value: 0.017657444
       objectReference: {fileID: 0}
     - target: {fileID: 8558043157808765421, guid: b1e1d63324f954944851e2f0e6cf4be9,
         type: 3}
       propertyPath: m_Size.x
-      value: 1.1414707
+      value: 0.35945806
       objectReference: {fileID: 0}
     - target: {fileID: 8558043157808765421, guid: b1e1d63324f954944851e2f0e6cf4be9,
         type: 3}
@@ -3214,6 +3223,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UsedByEffector
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558043157808765421, guid: b1e1d63324f954944851e2f0e6cf4be9,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.47215047
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558043157808765421, guid: b1e1d63324f954944851e2f0e6cf4be9,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.49181277
       objectReference: {fileID: 0}
     - target: {fileID: 8558043157808765422, guid: b1e1d63324f954944851e2f0e6cf4be9,
         type: 3}

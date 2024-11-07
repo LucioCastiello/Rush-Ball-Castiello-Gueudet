@@ -88,8 +88,8 @@ TextureImporter:
         y: 0
         width: 254
         height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.47215047, y: 0.49181277}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -108,8 +108,8 @@ TextureImporter:
         y: 0
         width: 254
         height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.49999976, y: 0.47953197}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -124,12 +124,12 @@ TextureImporter:
       name: botellon quilmes-Recovered-Recovered-Sheet-Sheet_2
       rect:
         serializedVersion: 2
-        x: 508
+        x: 507
         y: 0
         width: 254
         height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5011099, y: 0.49021238}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -144,12 +144,12 @@ TextureImporter:
       name: botellon quilmes-Recovered-Recovered-Sheet-Sheet_3
       rect:
         serializedVersion: 2
-        x: 759
+        x: 761
         y: 0
         width: 254
         height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5019522, y: 0.49076504}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,8 +168,8 @@ TextureImporter:
         y: 0
         width: 254
         height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.50422394, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,8 +188,8 @@ TextureImporter:
         y: 0
         width: 254
         height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5055561, y: 0.49510014}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,8 +228,8 @@ TextureImporter:
         y: 0
         width: 254
         height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48789808}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
