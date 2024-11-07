@@ -884,7 +884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hud: {fileID: 0}
   playerAnimator: {fileID: 2046093756}
-  deathAnimationName: 
+  deathAnimationName: pisanomuerte
 --- !u!1 &409665392
 GameObject:
   m_ObjectHideFlags: 0

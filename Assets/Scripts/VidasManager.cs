@@ -1,13 +1,12 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class VidasManager : MonoBehaviour
 {
     int vidas = 1;
-    public HUD hud;
-    public Animator playerAnimator; // Referencia al Animator del jugador
+    HUD hud; // Referencia al HUD
+    public Animator playerAnimator; // Referencia al Animador del jugador
     public string deathAnimationName; // Nombre de la animación de muerte
 
     void Awake()
@@ -19,7 +18,6 @@ public class VidasManager : MonoBehaviour
     {
         vidas -= 1;
         GAMEMANAGER.Instance.vidas = vidas;
-
         if (vidas == 0)
         {
             StartCoroutine(HandleDeath());
@@ -28,19 +26,23 @@ public class VidasManager : MonoBehaviour
 
     private IEnumerator HandleDeath()
     {
-        // Pausar el juego
+        // Pausar todo el juego, pero mantener las animaciones
         Time.timeScale = 0f;
 
+        // Si tenemos un Animador, ejecutamos la animación de muerte
         if (playerAnimator != null)
         {
-            // Ejecutar la animación de muerte
+            // Aseguramos que la animación de muerte se ejecute
             playerAnimator.Play(deathAnimationName);
 
-            // Esperar 3 segundos en tiempo no escalado
+            // Restauramos la velocidad del Animator, para que la animación siga corriendo a pesar de que Time.timeScale está en 0
+            playerAnimator.speed = 1f;
+
+            // Esperamos 3 segundos, sin que la escala de tiempo afecte
             float timer = 0f;
-            while (timer < 3f)
+            while (timer < 1f)
             {
-                timer += Time.unscaledDeltaTime;
+                timer += Time.unscaledDeltaTime; // Usamos Time.unscaledDeltaTime para que el temporizador siga en tiempo real
                 yield return null;
             }
         }
@@ -49,11 +51,11 @@ public class VidasManager : MonoBehaviour
             Debug.LogError("Player Animator no está asignado.");
         }
 
-        // Restaurar la escala de tiempo
+        // Restauramos la escala de tiempo a su valor normal
         Time.timeScale = 1f;
 
-        // Cargar la pantalla de Game Over
+        // Cargar la escena de Game Over
         SceneManager.LoadScene(2);
     }
-
 }
+
