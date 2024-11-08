@@ -84,7 +84,7 @@ TextureImporter:
         width: 64
         height: 144
       alignment: 9
-      pivot: {x: 0.4646331, y: 0.4465565}
+      pivot: {x: 0.5275862, y: 0.5081099}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -104,7 +104,7 @@ TextureImporter:
         width: 64
         height: 144
       alignment: 9
-      pivot: {x: 0.48585367, y: 0.59116787}
+      pivot: {x: 0.51103544, y: 0.5911678}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -119,12 +119,12 @@ TextureImporter:
       name: salto (1)-Sheet_2
       rect:
         serializedVersion: 2
-        x: 576
+        x: 577
         y: 0
         width: 64
         height: 144
       alignment: 9
-      pivot: {x: 0.4858551, y: 0.5943116}
+      pivot: {x: 0.5110388, y: 0.67824817}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

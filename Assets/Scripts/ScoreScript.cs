@@ -10,6 +10,7 @@ public class ScoreScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GAMEMANAGER.Instance.puntos = 0;
         puntosBase = 0;
     }
 
