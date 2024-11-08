@@ -24,7 +24,7 @@ public class GAMEMANAGER : MonoBehaviour
 
     private void Start()
     {
-        mayorPuntaje = 0f; // Inicializamos el mayor puntaje al principio, puedes cambiar esto si deseas que persista entre escenas
+        mayorPuntaje = 0f; // Inicializamos el mayor puntaje al principio
     }
 
     private void Update()
@@ -37,9 +37,10 @@ public class GAMEMANAGER : MonoBehaviour
     }
 
     // Función para reiniciar los puntos y vidas cuando el juego se reinicie
-    public void Reiniciar()
+    public void reiniciar()
     {
         puntos = 0; // Reseteamos el puntaje
         vidas = 3; // Reseteamos las vidas
+        
     }
 }
