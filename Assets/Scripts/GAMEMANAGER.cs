@@ -1,42 +1,45 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 public class GAMEMANAGER : MonoBehaviour
 {
-    public float puntos;
+    public float puntos; // Puntaje actual
+    public float mayorPuntaje; // Puntaje máximo registrado
+    public int vidas = 3; // Número de vidas
     public static GAMEMANAGER Instance { get; private set; }
-    public int vidas = 3;
 
     private void Awake()
     {
-        Debug.Log("Awake");
         if (Instance != null && Instance != this)
         {
-            Debug.Log("Se destruye");
             Destroy(this.gameObject);
         }
         else
         {
-            Debug.Log("Se inicializa");
             Instance = this;
         }
-        DontDestroyOnLoad(this);
-   
+        DontDestroyOnLoad(this); // No destruir el GameManager al cambiar de escena
     }
 
     private void Start()
     {
-        
+        mayorPuntaje = 0f; // Inicializamos el mayor puntaje al principio, puedes cambiar esto si deseas que persista entre escenas
     }
 
     private void Update()
     {
-        
-       
+        // Si el puntaje actual es mayor que el puntaje máximo registrado, lo actualizamos
+        if (puntos > mayorPuntaje)
+        {
+            mayorPuntaje = puntos;
+        }
     }
 
-  
-  
+    // Función para reiniciar los puntos y vidas cuando el juego se reinicie
+    public void Reiniciar()
+    {
+        puntos = 0; // Reseteamos el puntaje
+        vidas = 3; // Reseteamos las vidas
+    }
 }
