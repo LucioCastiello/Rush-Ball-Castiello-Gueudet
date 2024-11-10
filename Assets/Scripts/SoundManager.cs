@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    [SerializeField] private AudioSource sfxAudioSource, musicAudioSource;
+    [SerializeField] private AudioSource sfxAudioSource, musicAudioSource, deathaudiosource;
     public static SoundManager Instance { get; private set; }
 
-    private bool isMuted = false; // Variable para seguir el estado de mute
+    private bool isMuted = false;
 
     private void Awake()
     {
@@ -22,24 +22,22 @@ public class SoundManager : MonoBehaviour
         }
     }
 
-    // Método para alternar el estado de mute
     public void ToggleMute()
     {
-        isMuted = !isMuted; // Cambia el estado de mute
+        isMuted = !isMuted;
         sfxAudioSource.mute = isMuted;
         musicAudioSource.mute = isMuted;
+        deathaudiosource.mute = isMuted;
     }
 
-    // Método para verificar el estado de mute desde otros scripts
     public bool IsMuted()
     {
         return isMuted;
     }
 
-    // Método para reproducir un efecto de sonido
     public void ReproducirSonido(AudioClip audio)
     {
-        if (!isMuted) // Solo reproduce si no está en mute
+        if (!isMuted)
         {
             sfxAudioSource.PlayOneShot(audio);
         }
@@ -49,4 +47,14 @@ public class SoundManager : MonoBehaviour
     {
         return !isMuted && musicAudioSource.isPlaying;
     }
+
+    // Nuevo método para reproducir deathaudiosource
+    public void ReproducirSonidoMuerte()
+    {
+        if (!isMuted)
+        {
+            deathaudiosource.Play();
+        }
+    }
 }
+

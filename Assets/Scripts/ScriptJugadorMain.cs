@@ -22,7 +22,7 @@ public class ScriptJugadorMain : MonoBehaviour
 
     [SerializeField] private AudioClip jumpSound, dieSound;
 
-    // Start is called before the first frame update
+    
     private void Start()
     {
         coll = GetComponent<BoxCollider2D>();
@@ -34,7 +34,7 @@ public class ScriptJugadorMain : MonoBehaviour
 
     }
 
-    // Update is called once per frame
+    
     private void Update()
     {
         ProcesarMovimiento();

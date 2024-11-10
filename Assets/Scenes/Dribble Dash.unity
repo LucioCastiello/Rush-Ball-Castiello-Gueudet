@@ -1243,7 +1243,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -191, y: -139}
+  m_AnchoredPosition: {x: -952, y: -126}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &624746834
@@ -1295,8 +1295,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1983,7 +1983,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256432828}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.77, y: 0.01, z: 0.52171826}
+  m_LocalPosition: {x: 18.77, y: -0.4, z: 0.52171826}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2696,7 +2696,7 @@ MonoBehaviour:
   colliderdepieoffset: {x: -0.0009332895, y: -0.3576632}
   crouchSize: {x: 1.922789, y: 2.219977}
   crouchOffset: {x: -0.0009332895, y: -0.8529778}
-  jumpSound: {fileID: 8300000, guid: 51dc6e0250a73334590f06556c98bf0a, type: 3}
+  jumpSound: {fileID: 8300000, guid: 7f76a0e3d1196b64db1d6c3791b909ef, type: 3}
   dieSound: {fileID: 0}
 --- !u!95 &2046093756
 Animator:
@@ -2757,7 +2757,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122258453}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.39, y: -1.73, z: -0.019243937}
+  m_LocalPosition: {x: 8.39, y: -1.33, z: -0.019243937}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2905,6 +2905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sfxAudioSource: {fileID: 0}
   musicAudioSource: {fileID: 0}
+  deathaudiosource: {fileID: 0}
 --- !u!1001 &7435462531732769203
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3039,12 +3040,12 @@ PrefabInstance:
     - target: {fileID: 7950260702776577961, guid: ecc372b96d7eead40bfbc481cdb10e0e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.6
+      value: 9.07
       objectReference: {fileID: 0}
     - target: {fileID: 7950260702776577961, guid: ecc372b96d7eead40bfbc481cdb10e0e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.11
+      value: 15.08
       objectReference: {fileID: 0}
     - target: {fileID: 7950260702776577961, guid: ecc372b96d7eead40bfbc481cdb10e0e,
         type: 3}
